@@ -1,0 +1,7 @@
+In different screens:
+
+DISPLAY="localhost:10.0" _JAVA_OPTIONS="-Djava.net.preferIPv4Stack=true" java -jar /root/selenium-server-standalone-2.53.0.jar
+Xvfb :10 -ac
+DISPLAY=:10  USERNAME=<username> PASSWORD=<password> ./watcher.sh
+
+
