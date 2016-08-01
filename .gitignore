@@ -1,4 +1,5 @@
 *.pyc
 test/*.pyc
 data/*
+tweets.db
 
